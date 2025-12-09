@@ -1,0 +1,7 @@
+{
+  "host": "45.132.157.243",
+  "user": "u245763292",
+  "port": 21,
+  "remote_path": "/domains/conscienciacafe.com.br/public_html/",
+  "local_path": "./dist/"
+}

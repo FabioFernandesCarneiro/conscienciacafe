@@ -1,0 +1,235 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Propósito"
+  description="Conheça a história do Consciência Café. Uma cafeteria de especialidade, livraria e coworking em Foz do Iguaçu, criada para conexões e experiências únicas."
+>
+  <Header />
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative py-24 md:py-32 bg-primary overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="/images/DSC_0736.jpg"
+          alt="Consciência Café"
+          class="w-full h-full object-cover opacity-50"
+        />
+      </div>
+      <div class="container-custom section-padding !py-0 relative z-10">
+        <div class="max-w-3xl">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nossa História</span>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif text-white mt-4 mb-6">
+            Propósito
+          </h1>
+          <p class="text-xl text-gray-300">
+            Mais que café, criamos conexões e experiências que transformam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div>
+            <span class="text-accent text-sm font-semibold tracking-widest uppercase">Desde 2022</span>
+            <h2 class="text-3xl md:text-4xl font-serif mt-2 mb-6">
+              Como tudo começou
+            </h2>
+            <p class="text-gray mb-4">
+              O Consciência Café nasceu em 1º de setembro de 2022, fruto da paixão pelo café especial
+              e do desejo de criar um espaço único em Foz do Iguaçu. Um lugar onde as pessoas pudessem
+              se conectar, aprender e viver experiências memoráveis.
+            </p>
+            <p class="text-gray mb-4">
+              Desde o início, nossa proposta foi ir além de simplesmente servir café. Queríamos criar
+              um ambiente que inspirasse reflexão, crescimento pessoal e conexões genuínas entre as pessoas.
+            </p>
+            <p class="text-gray">
+              O nome "Consciência" reflete exatamente isso: a busca por um consumo consciente,
+              relacionamentos conscientes e uma vida mais plena e significativa.
+            </p>
+          </div>
+          <div class="relative">
+            <img
+              src="/images/DSC_0756.jpg"
+              alt="Interior do Consciência Café"
+              class="rounded-2xl shadow-2xl w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section-padding bg-gray-light">
+      <div class="container-custom">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nossos Valores</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2">
+            O que nos move
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Qualidade -->
+          <div class="bg-white p-8 rounded-2xl text-center">
+            <div class="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-10 h-10 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Qualidade</h3>
+            <p class="text-gray text-sm">
+              Selecionamos os melhores grãos e torramos na nossa própria micro torrefação
+              para garantir uma experiência excepcional em cada xícara.
+            </p>
+          </div>
+
+          <!-- Conexão -->
+          <div class="bg-white p-8 rounded-2xl text-center">
+            <div class="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-10 h-10 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Conexão</h3>
+            <p class="text-gray text-sm">
+              Acreditamos no poder das conexões humanas. Nosso espaço foi pensado
+              para aproximar pessoas e criar relacionamentos genuínos.
+            </p>
+          </div>
+
+          <!-- Consciência -->
+          <div class="bg-white p-8 rounded-2xl text-center">
+            <div class="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-10 h-10 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Consciência</h3>
+            <p class="text-gray text-sm">
+              Promovemos o consumo consciente e a reflexão. Da origem do café
+              à experiência no espaço, tudo é pensado com propósito.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pillars Section -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nossos Pilares</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2">
+            Um espaço completo
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Café Especial -->
+          <div class="flex gap-6 p-6 bg-gray-light rounded-2xl">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-serif text-xl mb-2">Café Especial</h3>
+              <p class="text-gray text-sm">
+                Grãos selecionados das melhores regiões produtoras, torrados artesanalmente
+                na nossa micro torrefação. Baristas treinados para extrair o melhor de cada método.
+              </p>
+            </div>
+          </div>
+
+          <!-- Livraria -->
+          <div class="flex gap-6 p-6 bg-gray-light rounded-2xl">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-serif text-xl mb-2">Livraria</h3>
+              <p class="text-gray text-sm">
+                Uma curadoria especial de livros sobre história, autoconhecimento e desenvolvimento
+                pessoal. Um convite à reflexão e ao crescimento pessoal.
+              </p>
+            </div>
+          </div>
+
+          <!-- Coworking -->
+          <div class="flex gap-6 p-6 bg-gray-light rounded-2xl">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-serif text-xl mb-2">Coworking</h3>
+              <p class="text-gray text-sm">
+                Espaços confortáveis com internet de alta velocidade. O ambiente perfeito
+                para trabalhar, estudar ou realizar reuniões em um espaço inspirador.
+              </p>
+            </div>
+          </div>
+
+          <!-- Eventos -->
+          <div class="flex gap-6 p-6 bg-gray-light rounded-2xl">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-serif text-xl mb-2">Eventos</h3>
+              <p class="text-gray text-sm">
+                Palestras, workshops, eventos corporativos e celebrações especiais.
+                Um espaço versátil para criar momentos memoráveis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-padding bg-primary">
+      <div class="container-custom text-center">
+        <h2 class="text-3xl md:text-4xl font-serif text-white mb-6">
+          Venha fazer parte dessa história
+        </h2>
+        <p class="text-gray-300 mb-8 max-w-xl mx-auto">
+          Estamos de portas abertas para recebê-lo. Venha conhecer nosso espaço,
+          experimentar nosso café e viver experiências únicas.
+        </p>
+        <a
+          href="https://wa.me/5545991025102?text=Olá! Gostaria de conhecer o Consciência Café"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary"
+        >
+          Fale Conosco
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,223 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="B2B"
+  description="Serviços empresariais do Consciência Café: torrefação especializada, consultoria, mentoria e treinamentos para cafeterias e restaurantes."
+>
+  <Header />
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative py-24 md:py-32 bg-primary overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="/images/DSC_0767.jpg"
+          alt="Serviços B2B"
+          class="w-full h-full object-cover opacity-50"
+        />
+      </div>
+      <div class="container-custom section-padding !py-0 relative z-10">
+        <div class="max-w-3xl">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Para Empresas</span>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif text-white mt-4 mb-6">
+            Soluções B2B
+          </h1>
+          <p class="text-xl text-gray-300">
+            Elevamos seu negócio com café especial, consultoria e treinamentos especializados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nossos Serviços</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2">
+            Como podemos ajudar seu negócio
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Torrefação Especializada -->
+          <div class="bg-gray-light p-8 rounded-2xl">
+            <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-2xl mb-4">Torrefação Especializada</h3>
+            <p class="text-gray mb-4">
+              Fornecemos grãos premium das melhores regiões produtoras do mundo, com padrões
+              de torra personalizados para cada cliente. Garantimos perfis de sabor e aroma únicos.
+            </p>
+            <ul class="space-y-2 text-sm text-gray">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Grãos selecionados de origem
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Perfis de torra personalizados
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Entrega regular garantida
+              </li>
+            </ul>
+          </div>
+
+          <!-- Consultoria e Mentoria -->
+          <div class="bg-gray-light p-8 rounded-2xl">
+            <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-2xl mb-4">Consultoria e Mentoria</h3>
+            <p class="text-gray mb-4">
+              Oferecemos suporte contínuo para parceiros de cafeterias, auxiliando em diversas
+              áreas do negócio para garantir o sucesso do seu empreendimento.
+            </p>
+            <ul class="space-y-2 text-sm text-gray">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Plano de negócios
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Desenvolvimento de marca
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Estratégias de marketing
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Gestão financeira
+              </li>
+            </ul>
+          </div>
+
+          <!-- Consultoria Operacional -->
+          <div class="bg-gray-light p-8 rounded-2xl">
+            <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-2xl mb-4">Consultoria Operacional</h3>
+            <p class="text-gray mb-4">
+              Nossa equipe auxilia na seleção de equipamentos e desenvolvimento de cardápio,
+              garantindo eficiência e qualidade em todas as operações.
+            </p>
+            <ul class="space-y-2 text-sm text-gray">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Seleção de equipamentos
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Desenvolvimento de cardápio
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Otimização de processos
+              </li>
+            </ul>
+          </div>
+
+          <!-- Treinamentos -->
+          <div class="bg-gray-light p-8 rounded-2xl">
+            <div class="w-16 h-16 bg-accent rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-2xl mb-4">Treinamentos</h3>
+            <p class="text-gray mb-4">
+              Oferecemos educação em café desde cursos introdutórios até técnicas avançadas
+              de barista e métodos de preparo de bebidas quentes e frias.
+            </p>
+            <ul class="space-y-2 text-sm text-gray">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Curso de barista básico
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Técnicas avançadas
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Latte art
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Métodos de preparo
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-padding bg-primary">
+      <div class="container-custom text-center">
+        <h2 class="text-3xl md:text-4xl font-serif text-white mb-6">
+          Vamos transformar seu negócio juntos?
+        </h2>
+        <p class="text-gray-300 mb-8 max-w-xl mx-auto">
+          Entre em contato conosco para discutir como podemos ajudar sua empresa
+          a se destacar no mercado de café.
+        </p>
+        <a
+          href="https://wa.me/5545991025102?text=Olá! Tenho interesse nos serviços B2B do Consciência Café"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary"
+        >
+          Solicitar Proposta
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://conscienciacafe.com.br/sitemap-index.xml

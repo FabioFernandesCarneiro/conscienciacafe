@@ -1,0 +1,202 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout title="Home">
+  <Header />
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative min-h-[70vh] flex items-center bg-primary overflow-hidden">
+      <!-- Background Image -->
+      <div class="absolute inset-0">
+        <img
+          src="/images/DSC_0382.jpg"
+          alt="Consciência Café"
+          class="w-full h-full object-cover opacity-80"
+        />
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/70 via-primary/40 to-transparent"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="container-custom section-padding relative z-10">
+        <div class="max-w-2xl">
+          <span class="inline-block text-accent text-sm font-semibold tracking-widest uppercase mb-4 animate-fade-in">
+            Foz do Iguaçu
+          </span>
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-6 animate-slide-up">
+            Do grão à xícara,
+            <span class="text-accent">com consciência</span>
+          </h1>
+          <p class="text-lg md:text-xl text-gray-300 mb-8 animate-slide-up" style="animation-delay: 0.2s;">
+            Cafeteria e torrefação de cafés especiais, livraria e coworking.
+            Um espaço criado para conexões, aprendizado e experiências únicas.
+          </p>
+          <div class="flex flex-wrap gap-4 animate-slide-up" style="animation-delay: 0.4s;">
+            <a href="/cardapio/" class="btn-primary">
+              Ver Cardápio
+            </a>
+            <a href="/quem-somos/" class="btn-outline !border-white !text-white hover:!bg-white hover:!text-primary">
+              Conheça Nossa História
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div class="relative">
+            <img
+              src="/images/DSC_0351.jpg"
+              alt="Interior do Consciência Café"
+              class="rounded-2xl shadow-2xl w-full"
+            />
+            <div class="absolute -bottom-6 -right-6 bg-accent text-white p-6 rounded-xl hidden md:block">
+              <p class="font-serif text-3xl font-bold">+3</p>
+              <p class="text-sm">anos de história</p>
+            </div>
+          </div>
+          <div>
+            <span class="text-accent text-sm font-semibold tracking-widest uppercase">Sobre Nós</span>
+            <h2 class="text-3xl md:text-4xl font-serif mt-2 mb-6">
+              Mais que uma cafeteria, um espaço de
+              <span class="text-accent">consciência</span>
+            </h2>
+            <p class="text-gray mb-4">
+              Nascemos da paixão pelo café especial e pelo desejo de criar um ambiente que inspire
+              conexões genuínas. Aqui, cada xícara é preparada com cuidado por baristas treinados,
+              usando grãos selecionados da nossa própria micro torrefação.
+            </p>
+            <p class="text-gray mb-8">
+              Além do café, oferecemos uma livraria curada com obras sobre história e autoconhecimento,
+              espaços de coworking e um ambiente perfeito para eventos e workshops.
+            </p>
+            <a href="/quem-somos/" class="btn-outline inline-block">
+              Saiba Mais
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-padding bg-gray-light">
+      <div class="container-custom">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">O que oferecemos</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2">
+            Uma experiência completa
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Café Especial -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 group">
+            <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors duration-300">
+              <svg class="w-8 h-8 text-accent group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Café Especial</h3>
+            <p class="text-gray text-sm">
+              Grãos selecionados e torrados na nossa micro torrefação. Cada xícara é uma experiência
+              única, preparada por baristas especializados.
+            </p>
+          </div>
+
+          <!-- Livraria -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 group">
+            <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors duration-300">
+              <svg class="w-8 h-8 text-accent group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Livraria</h3>
+            <p class="text-gray text-sm">
+              Uma curadoria especial de livros sobre história, autoconhecimento e desenvolvimento
+              pessoal para inspirar sua jornada.
+            </p>
+          </div>
+
+          <!-- Coworking -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 group">
+            <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors duration-300">
+              <svg class="w-8 h-8 text-accent group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Coworking</h3>
+            <p class="text-gray text-sm">
+              Espaços confortáveis com internet de alta velocidade para você trabalhar,
+              estudar ou realizar reuniões em um ambiente inspirador.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section-padding bg-primary">
+      <div class="container-custom">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nosso Espaço</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2 text-white">
+            Um ambiente pensado para você
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <img src="/images/DSC_0300.jpg" alt="Consciência Café" class="rounded-xl w-full h-48 md:h-64 object-cover hover:scale-105 transition-transform duration-300" />
+          <img src="/images/DSC_0441.jpg" alt="Consciência Café" class="rounded-xl w-full h-48 md:h-64 object-cover hover:scale-105 transition-transform duration-300" />
+          <img src="/images/DSC_0493.jpg" alt="Consciência Café" class="rounded-xl w-full h-48 md:h-64 object-cover hover:scale-105 transition-transform duration-300" />
+          <img src="/images/DSC_0496.jpg" alt="Consciência Café" class="rounded-xl w-full h-48 md:h-64 object-cover hover:scale-105 transition-transform duration-300" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-padding bg-accent">
+      <div class="container-custom text-center">
+        <h2 class="text-3xl md:text-4xl font-serif text-white mb-6">
+          Venha nos visitar
+        </h2>
+        <p class="text-white/90 mb-8 max-w-xl mx-auto">
+          Estamos esperando você para um café especial, uma boa conversa
+          ou um momento de tranquilidade com um bom livro.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a
+            href="https://wa.me/5545991025102?text=Olá! Gostaria de conhecer o Consciência Café"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-accent px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+          >
+            Fale Conosco
+          </a>
+          <a
+            href="https://maps.google.com/?q=Consciência+Café+Foz+do+Iguaçu"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-accent transition-colors"
+          >
+            Como Chegar
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

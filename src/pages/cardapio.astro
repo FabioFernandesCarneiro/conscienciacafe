@@ -1,0 +1,587 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Cardápio"
+  description="Conheça o cardápio do Consciência Café. Cafés especiais filtrados, bebidas exclusivas, brunch e comidas preparadas com carinho."
+>
+  <Header />
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative py-24 md:py-32 bg-primary overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="/images/DSC_0494.jpg"
+          alt="Café especial"
+          class="w-full h-full object-cover opacity-50"
+        />
+      </div>
+      <div class="container-custom section-padding !py-0 relative z-10">
+        <div class="max-w-3xl">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nosso Menu</span>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif text-white mt-4 mb-6">
+            Cardápio
+          </h1>
+          <p class="text-xl text-gray-300">
+            Cafés especiais torrados na hora, bebidas exclusivas e comidas preparadas com carinho.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cafés Especiais Filtrados - Destaque Principal -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="text-accent text-sm font-semibold tracking-widest uppercase">Nosso Diferencial</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2 mb-4">
+            Cafés Especiais Filtrados
+          </h2>
+          <p class="text-gray">
+            Grãos selecionados da nossa torrefação, preparados na mesa pelos nossos baristas.
+            Escolha o método de preparo e descubra notas únicas em cada xícara.
+          </p>
+        </div>
+
+        <!-- Menu Degustação - Destaque -->
+        <div class="bg-primary text-white p-8 md:p-12 rounded-2xl mb-12">
+          <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <span class="text-accent text-sm font-semibold tracking-widest uppercase">Experiência Completa</span>
+              <h3 class="text-2xl md:text-3xl font-serif mt-2 mb-4">Menu Degustação</h3>
+              <p class="text-gray-300 mb-6">
+                3 cafés em 3 métodos diferentes preparados na mesa pelos nossos baristas.
+                Uma jornada sensorial pelos sabores do café especial.
+              </p>
+              <p class="text-accent text-3xl font-serif font-bold">R$ 45</p>
+            </div>
+            <div class="text-center">
+              <p class="text-sm text-gray-400 mb-4">Métodos disponíveis:</p>
+              <div class="flex flex-wrap justify-center gap-3">
+                <span class="bg-white/10 px-4 py-2 rounded-lg text-sm">Coador</span>
+                <span class="bg-white/10 px-4 py-2 rounded-lg text-sm">V60</span>
+                <span class="bg-white/10 px-4 py-2 rounded-lg text-sm">Clever</span>
+                <span class="bg-white/10 px-4 py-2 rounded-lg text-sm">AeroPress</span>
+                <span class="bg-white/10 px-4 py-2 rounded-lg text-sm">Chemex</span>
+                <span class="bg-white/10 px-4 py-2 rounded-lg text-sm">Prensa Francesa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Opções de Grãos -->
+        <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div class="bg-gray-light p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Café Consciência</h4>
+            <p class="text-xs text-gray mb-2">Café base da casa</p>
+            <p class="text-accent font-bold">R$ 15</p>
+          </div>
+          <div class="bg-gray-light p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Frutado</h4>
+            <p class="text-xs text-gray mb-2">Notas frutadas</p>
+            <p class="text-accent font-bold">R$ 17</p>
+          </div>
+          <div class="bg-gray-light p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Honey</h4>
+            <p class="text-xs text-gray mb-2">Processamento honey</p>
+            <p class="text-accent font-bold">R$ 17</p>
+          </div>
+          <div class="bg-gray-light p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Microlotes</h4>
+            <p class="text-xs text-gray mb-2">Edição limitada</p>
+            <p class="text-accent font-bold">R$ 17</p>
+          </div>
+          <div class="bg-gray-light p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Caparaó</h4>
+            <p class="text-xs text-gray mb-2">Origem Caparaó</p>
+            <p class="text-accent font-bold">R$ 17</p>
+          </div>
+          <div class="bg-gray-light p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Descafeinado</h4>
+            <p class="text-xs text-gray mb-2">Sem cafeína</p>
+            <p class="text-accent font-bold">R$ 19</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bebidas -->
+    <section class="section-padding bg-gray-light">
+      <div class="container-custom">
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Bebidas Quentes -->
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-serif">Quentes</h3>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden">
+              <div class="divide-y divide-gray-100">
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Espresso</h4>
+                    <p class="text-xs text-gray">Curto 30ml | Carioca 60ml</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 9</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Espresso Duplo</h4>
+                    <p class="text-xs text-gray">Curto 60ml | Americano 180ml</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 11</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Latte</h4>
+                    <p class="text-xs text-gray">Espresso com leche vaporizado</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 15</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Cappuccino Italiano</h4>
+                    <p class="text-xs text-gray">Espresso, leite vaporizado</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 16</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Cappuccino Especial</h4>
+                    <p class="text-xs text-gray">Com canela e chocolate</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Mocha</h4>
+                    <p class="text-xs text-gray">Espresso, chocolate e leite</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Caramel Macchiato</h4>
+                    <p class="text-xs text-gray">Espresso, caramelo e leite</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Chocolate Quente</h4>
+                    <p class="text-xs text-gray">Leite vaporizado e chocolate</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bebidas Geladas -->
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-serif">Geladas</h3>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden">
+              <div class="divide-y divide-gray-100">
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Latte Gelado</h4>
+                    <p class="text-xs text-gray">Gelo, espresso e leite</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 16</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Cappuccino Especial Gelado</h4>
+                    <p class="text-xs text-gray">Gelo, sorvete, espresso e leite</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Iced Vanilla Latte</h4>
+                    <p class="text-xs text-gray">Essência de baunilha, espresso e leite</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Mocha Gelado</h4>
+                    <p class="text-xs text-gray">Cacau 80%, gelo, espresso e leite</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Frapê de Nutella</h4>
+                    <p class="text-xs text-gray">Gelo, sorvete, leite, Nutella e espresso</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 20</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Frapê de Doce de Leite</h4>
+                    <p class="text-xs text-gray">Gelo, sorvete, leite, doce de leite e espresso</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 20</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Espresso Tônica</h4>
+                    <p class="text-xs text-gray">Espresso e água tônica</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 15</span>
+                </div>
+                <div class="flex justify-between items-center p-4">
+                  <div>
+                    <h4 class="font-medium">Affogato</h4>
+                    <p class="text-xs text-gray">Espresso e bola de sorvete de creme</p>
+                  </div>
+                  <span class="text-accent font-bold">R$ 18</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Monte seu Lanche -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="bg-primary text-white p-8 md:p-12 rounded-2xl">
+          <div class="text-center max-w-3xl mx-auto mb-8">
+            <span class="text-accent text-sm font-semibold tracking-widest uppercase">Personalize</span>
+            <h2 class="text-3xl md:text-4xl font-serif mt-2 mb-4">Monte seu Lanche</h2>
+            <p class="text-gray-300">
+              Escolha a base, a proteína, os acompanhamentos e o toque final para criar o lanche perfeito.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-4 gap-6">
+            <div class="text-center">
+              <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-3">
+                <span class="text-white font-bold">1</span>
+              </div>
+              <h4 class="font-semibold mb-2">Escolha a Base</h4>
+              <p class="text-sm text-gray-400">Waffle de Pão de Queijo, Tapioca, Crepioca, Ciabatta, Croissant, Pão de Fermentação</p>
+            </div>
+            <div class="text-center">
+              <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-3">
+                <span class="text-white font-bold">2</span>
+              </div>
+              <h4 class="font-semibold mb-2">1 Proteína</h4>
+              <p class="text-sm text-gray-400">Ovo mexido, Frango desfiado, Carne desfiada, Presunto, Bacon</p>
+            </div>
+            <div class="text-center">
+              <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-3">
+                <span class="text-white font-bold">3</span>
+              </div>
+              <h4 class="font-semibold mb-2">2 Acompanhamentos</h4>
+              <p class="text-sm text-gray-400">Queijo, Queijo sem lactose, Queijo vegano, Tomate, Cebola, Azeitona, Requeijão, Alface</p>
+            </div>
+            <div class="text-center">
+              <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-3">
+                <span class="text-white font-bold">4</span>
+              </div>
+              <h4 class="font-semibold mb-2">2 Finalizações</h4>
+              <p class="text-sm text-gray-400">Azeite, Orégano, Molho pesto, Manteiga, Ghee, Homus</p>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap justify-center gap-3 mt-8">
+            <span class="bg-white/10 px-3 py-1 rounded text-xs">Sem Glúten</span>
+            <span class="bg-white/10 px-3 py-1 rounded text-xs">Sem Lactose</span>
+            <span class="bg-white/10 px-3 py-1 rounded text-xs">Vegano</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brunch -->
+    <section class="section-padding bg-accent">
+      <div class="container-custom">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="text-white/80 text-sm font-semibold tracking-widest uppercase">Servido todos os dias!</span>
+          <h2 class="text-3xl md:text-4xl font-serif mt-2 mb-4 text-white">Brunch</h2>
+          <p class="text-white/80">
+            Uma experiência completa para começar bem o dia.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- Americano -->
+          <div class="bg-white p-8 rounded-2xl">
+            <h3 class="text-2xl font-serif mb-4">Americano</h3>
+            <ul class="space-y-2 text-sm text-gray mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Café americano ou latte
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Suco natural
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Torradas
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Ovos mexidos com bacon
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Waffle tradicional ou pão de queijo
+              </li>
+            </ul>
+            <p class="text-accent text-3xl font-serif font-bold">R$ 60</p>
+          </div>
+
+          <!-- Carioca -->
+          <div class="bg-white p-8 rounded-2xl">
+            <h3 class="text-2xl font-serif mb-4">Carioca</h3>
+            <ul class="space-y-2 text-sm text-gray mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Espresso duplo ou latte
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Suco natural
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Pão na chapa
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Ovos mexidos
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Bolo do dia
+              </li>
+            </ul>
+            <p class="text-accent text-3xl font-serif font-bold">R$ 60</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Salgados e Doces -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Salgados -->
+          <div>
+            <h3 class="text-2xl font-serif mb-6">Salgados</h3>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Waffle de Pão de Queijo</h4>
+                  <p class="text-xs text-gray">Massa de pão de queijo sem recheio</p>
+                </div>
+                <span class="text-accent font-bold">R$ 10</span>
+              </div>
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Pão com Ovo</h4>
+                  <p class="text-xs text-gray">Pão de forma sem glúten com manteiga ghee</p>
+                </div>
+                <span class="text-accent font-bold">R$ 9</span>
+              </div>
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Torradas, Ovos e Bacon</h4>
+                  <p class="text-xs text-gray">Clássico café da manhã</p>
+                </div>
+                <span class="text-accent font-bold">R$ 15</span>
+              </div>
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Misto Quente</h4>
+                  <p class="text-xs text-gray">Pão de forma, queijo e presunto</p>
+                </div>
+                <span class="text-accent font-bold">R$ 13</span>
+              </div>
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Croissant Recheado</h4>
+                  <p class="text-xs text-gray">Queijo e presunto ou frango com requeijão</p>
+                </div>
+                <span class="text-accent font-bold">R$ 15</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <div>
+                  <h4 class="font-medium">Coxinha de Frango</h4>
+                  <p class="text-xs text-gray">Assada na air fryer</p>
+                </div>
+                <span class="text-accent font-bold">R$ 10</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pães de Fermentação Natural -->
+          <div>
+            <h3 class="text-2xl font-serif mb-6">Pães de Fermentação Natural</h3>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Avocado Toast</h4>
+                  <p class="text-xs text-gray">Com abacate, ovos, fatias de bacon, azeite e tomate cereja</p>
+                </div>
+                <span class="text-accent font-bold">R$ 25</span>
+              </div>
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Tábua de Pães</h4>
+                  <p class="text-xs text-gray">Fatias de pães com manteiga e geleia</p>
+                </div>
+                <span class="text-accent font-bold">R$ 15</span>
+              </div>
+              <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                <div>
+                  <h4 class="font-medium">Bruschetta</h4>
+                  <p class="text-xs text-gray">Fatias de pães com tomates picados, azeite, molho pesto e orégano</p>
+                </div>
+                <span class="text-accent font-bold">R$ 18</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <div>
+                  <h4 class="font-medium">Leve para Casa</h4>
+                  <p class="text-xs text-gray">Pão de fermentação natural fresquinho</p>
+                </div>
+                <span class="text-accent font-bold">R$ 24</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doces -->
+    <section class="section-padding bg-gray-light">
+      <div class="container-custom">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-3xl md:text-4xl font-serif mb-4">Doces</h2>
+          <p class="text-gray">Para adoçar o seu momento.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Banoffee</h4>
+            <p class="text-xs text-gray mb-2">Feita na hora na taça</p>
+            <p class="text-accent font-bold">R$ 14-18</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Sorvete de Café</h4>
+            <p class="text-xs text-gray mb-2">Artesanal com Café Consciência</p>
+            <p class="text-accent font-bold">R$ 15</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Torta Italianíssima</h4>
+            <p class="text-xs text-gray mb-2">Torta gourmet</p>
+            <p class="text-accent font-bold">R$ 18</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Waffle Tradicional</h4>
+            <p class="text-xs text-gray mb-2">Com Nutella e doce de leite</p>
+            <p class="text-accent font-bold">R$ 18</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Brownie</h4>
+            <p class="text-xs text-gray mb-2">Com sorvete</p>
+            <p class="text-accent font-bold">R$ 10</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Brownie Sem Glúten</h4>
+            <p class="text-xs text-gray mb-2">Com sorvete</p>
+            <p class="text-accent font-bold">R$ 12</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Bolo do Dia</h4>
+            <p class="text-xs text-gray mb-2">Fatia ou recheado</p>
+            <p class="text-accent font-bold">R$ 11-13</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl text-center">
+            <h4 class="font-serif text-lg mb-1">Brigadeiro</h4>
+            <p class="text-xs text-gray mb-2">Artesanal</p>
+            <p class="text-accent font-bold">R$ 8</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-padding bg-primary">
+      <div class="container-custom text-center">
+        <h2 class="text-3xl md:text-4xl font-serif text-white mb-6">
+          Quer ver o cardápio completo?
+        </h2>
+        <p class="text-gray-300 mb-8 max-w-xl mx-auto">
+          Baixe nosso cardápio em PDF com todas as opções, preços e informações detalhadas.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a
+            href="/cardapio-consciencia-cafe.pdf"
+            target="_blank"
+            class="bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:bg-accent/90 transition-colors inline-flex items-center gap-2"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            Baixar Cardápio Completo
+          </a>
+          <a
+            href="https://wa.me/5545991025102?text=Olá! Gostaria de fazer um pedido"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2"
+          >
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Fazer Pedido
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
