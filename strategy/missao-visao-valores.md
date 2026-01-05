@@ -8,82 +8,85 @@ O Consciência Café é uma cafeteria especializada em cafés especiais localiza
 
 ## Missão
 
-> *A missão define o propósito fundamental da empresa - por que existimos.*
-
-<!-- TODO: Definir com a equipe -->
-
-**[A DEFINIR]**
-
-*Sugestão de estrutura: "Proporcionar [o quê] para [quem] através de [como]"*
+> **Criar experiências onde a excelência do café se entrelaça com a conexão humana e a expansão da consciência.**
 
 ---
 
 ## Visão
 
-> *A visão descreve onde queremos chegar - nosso objetivo de longo prazo.*
-
-<!-- TODO: Definir com a equipe -->
-
-**[A DEFINIR]**
-
-*Sugestão de estrutura: "Ser reconhecido como [posição] em [área/região] até [quando]"*
+> **Ser a referência em cafés especiais na Tríplice Fronteira, reconhecidos por transformar a forma como as pessoas vivem o café.**
 
 ---
 
 ## Valores
 
-> *Valores são os princípios que guiam nossas decisões e comportamentos.*
+### 1. Consciência
+Presença no que fazemos - do grão à xícara, do atendimento ao momento. Valorizamos tanto o conhecimento sobre o café quanto a atenção plena no presente.
 
-<!-- TODO: Definir com a equipe (3-5 valores) -->
+### 2. Liberdade com Responsabilidade
+Autonomia para criar e tomar decisões, sempre com compromisso pelos resultados e impacto das nossas ações.
 
-### 1. [VALOR 1]
-*Descrição do valor e como ele se manifesta no dia a dia.*
+### 3. Transparência
+Clareza e honestidade nas relações - com a equipe, clientes e fornecedores. Comunicamos abertamente e construímos confiança.
 
-### 2. [VALOR 2]
-*Descrição do valor e como ele se manifesta no dia a dia.*
+### 4. Foco no Cliente
+Cada pessoa que entra merece uma experiência excepcional. Ouvimos, entendemos e superamos expectativas.
 
-### 3. [VALOR 3]
-*Descrição do valor e como ele se manifesta no dia a dia.*
+### 5. Colaboração
+Juntos somos mais fortes que individualmente. Valorizamos o trabalho em equipe e o sucesso coletivo.
+
+### 6. Meritocracia
+Reconhecemos e valorizamos quem entrega resultados e busca crescimento contínuo.
+
+---
+
+## Propósito Expandido
+
+> *Ir além de oferecer cafés especiais. Buscamos criar experiências onde a excelência do café se entrelaça com a conexão humana e o estímulo à expansão da Consciência. Em cada grão, cultivamos relações que ultrapassam fronteiras.*
 
 ---
 
 ## Proposta de Valor
 
-> *O que nos diferencia da concorrência e por que os clientes nos escolhem.*
-
-<!-- TODO: Definir com a equipe -->
-
-**[A DEFINIR]**
+O Consciência Café oferece mais do que café especial de alta qualidade. Oferecemos um espaço onde cada visita é uma oportunidade de:
+- Descobrir novos sabores e origens de café
+- Conectar-se consigo mesmo em momentos de pausa consciente
+- Encontrar pessoas e criar relações significativas
+- Trabalhar ou estudar em um ambiente inspirador
 
 ---
 
 ## Público-Alvo
 
 ### Primário
-<!-- TODO: Definir -->
-- **Perfil**:
-- **Idade**:
-- **Interesses**:
-- **Necessidades**:
+- **Perfil**: Amantes de café que buscam qualidade e experiência
+- **Idade**: 25-45 anos
+- **Interesses**: Gastronomia, cultura, leitura, bem-estar
+- **Necessidades**: Café de qualidade, ambiente agradável, momentos de conexão
 
 ### Secundário
-<!-- TODO: Definir -->
-- **Perfil**:
-- **Idade**:
-- **Interesses**:
-- **Necessidades**:
+- **Perfil**: Profissionais remotos e nômades digitais
+- **Idade**: 25-40 anos
+- **Interesses**: Trabalho flexível, produtividade, networking
+- **Necessidades**: Wi-Fi, ambiente para trabalho, café para energia
+
+### Terciário
+- **Perfil**: Turistas visitando Foz do Iguaçu
+- **Idade**: Variada
+- **Interesses**: Experiências locais autênticas
+- **Necessidades**: Descobrir a cultura local através do café
 
 ---
 
 ## Posicionamento
 
-> *Como queremos ser percebidos no mercado.*
-
-<!-- TODO: Definir -->
-
-**[A DEFINIR]**
+**Para** pessoas que buscam mais do que apenas café,
+**o Consciência Café é** uma cafeteria de cafés especiais
+**que** oferece experiências onde qualidade, conexão e consciência se encontram,
+**diferente de** cafeterias convencionais que focam apenas no produto,
+**porque** acreditamos que cada xícara é uma oportunidade de expansão - do paladar e da consciência.
 
 ---
 
 *Última atualização: Janeiro 2025*
-*Status: Rascunho - Aguardando definição com equipe*
+*Status: Definido*
