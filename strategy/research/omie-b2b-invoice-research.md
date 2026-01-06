@@ -362,21 +362,38 @@ Para operações B2B com volume pequeno, os critérios mais importantes são:
 3. **Sem contrato mínimo** (flexibilidade para cancelar)
 4. **Preparado para Reforma Tributária 2025**
 
-### Comparativo Detalhado
+### Comparativo Detalhado (Atualizado Jan/2026)
 
 | Provedor | Modelo Cobrança | Custo Mínimo | Taxa Setup | Contrato | Reforma 2025 | Ideal Para |
 |----------|-----------------|--------------|------------|----------|--------------|------------|
-| **[Focus NFe](https://focusnfe.com.br/)** | Por nota | Variável | R$ 0 | Sem mínimo | ✅ | Volumes variáveis |
-| **[Webmania](https://webmania.com.br/)** | Pacote mensal | R$ 29,90/mês (MEI) ou R$ 69,90/mês (100 notas) | R$ 0 | Sem mínimo | ✅ 100% adaptado | MEI e PME |
-| **[NFe.io](https://nfe.io/)** | Planos | A partir de R$ 49/mês | R$ 0 | Mensal | ✅ | 50+ notas/mês |
-| **[TransmiteNota](https://transmitenota.com.br/)** | Por volume | R$ 29,90/mês | R$ 0 | Sem mínimo | ✅ | Volumes pequenos |
-| **[eNotas](https://enotas.com.br/)** | Planos | Mensalidade | R$ 347 | Mensal | ✅ | Infoprodutos |
+| **[TransmiteNota](https://transmitenota.com.br/)** | Por volume | R$ 29,90/mês | R$ 199,90 | Sem mínimo | A verificar | **Menor custo mensal** |
 | **[Sync NFe](https://syncnfe.com.br/)** | Planos | R$ 47/mês | R$ 0 | Sem mínimo | ✅ | Custo fixo baixo |
+| **[Webmania](https://webmania.com.br/)** | Pacote mensal | R$ 69,90/mês (100 notas) | R$ 0 | Sem mínimo | ✅ 100% adaptado | PME c/ garantia |
+| **[Focus NFe](https://focusnfe.com.br/)** | Assinatura | R$ 89,90/mês (Solo) | R$ 0 | Sem mínimo | ✅ | API robusta |
+| **[NFe.io](https://nfe.io/)** | Planos | A partir de R$ 49/mês | R$ 0 | Mensal | ✅ | 50+ notas/mês |
+| **[eNotas](https://enotas.com.br/)** | Planos | Mensalidade | R$ 347 | Mensal | ✅ | Infoprodutos |
 
 ### Análise por Provedor
 
-#### 1. **Focus NFe** ⭐ Melhor para volume variável
-- **Modelo:** Cobrança por nota emitida (não divulga valores públicos)
+#### 1. **TransmiteNota** ⭐ Menor custo mensal
+- **Modelo:** Cobrança por volume de notas emitidas
+- **Preço:** A partir de R$ 29,90/mês
+- **Taxa de onboarding:** R$ 199,90 (única, inclui suporte na implantação)
+- **Vantagens:**
+  - Menor mensalidade do mercado
+  - Suporta NF-e, NFS-e e NFC-e
+  - Sem limite de armazenamento, XMLs guardados 5 anos
+  - Suporte por email, telefone, Skype e WhatsApp
+  - API REST documentada
+- **Desvantagens:**
+  - Taxa de onboarding inicial
+  - Menos conhecido que concorrentes maiores
+  - **Verificar preparação para Reforma Tributária**
+- **Documentação:** https://documentacao.transmitenota.com.br/
+
+#### 2. **Focus NFe** - API mais robusta
+- **Modelo:** Assinatura mensal (não mais por nota)
+- **Plano Solo:** R$ 89,90/mês (1 CNPJ)
 - **Vantagens:**
   - Sem taxa inicial, sem contrato mínimo
   - 1.000+ municípios integrados
@@ -384,11 +401,11 @@ Para operações B2B com volume pequeno, os critérios mais importantes são:
   - REST API moderna, documentação excelente
   - 860+ milhões de notas processadas
 - **Desvantagens:**
-  - Preços não publicados (precisa solicitar orçamento)
+  - Preço mais alto para pequeno volume
   - Aceita apenas certificado A1
 - **Documentação:** https://focusnfe.com.br/doc/
 
-#### 2. **Webmania** ⭐ Melhor custo-benefício para PME
+#### 3. **Webmania** ⭐ Melhor custo-benefício para PME
 - **Modelo:** Pacotes mensais com limite de notas
 - **Planos:**
   - MEI Simples: R$ 29,90/mês (emissão sem certificado digital)
@@ -405,7 +422,7 @@ Para operações B2B com volume pequeno, os critérios mais importantes são:
   - Excedente cobra valor de nova contratação do plano
 - **Documentação:** https://webmania.com.br/docs/rest-api-nfe/
 
-#### 3. **Sync NFe** ⭐ Mais barato com API
+#### 4. **Sync NFe** ⭐ Mais barato com API
 - **Modelo:** Planos mensais
 - **Preço:** A partir de R$ 47/mês
 - **Vantagens:**
@@ -414,13 +431,6 @@ Para operações B2B com volume pequeno, os critérios mais importantes são:
 - **Desvantagens:**
   - Menos conhecido no mercado
 - **Site:** https://syncnfe.com.br/
-
-#### 4. **TransmiteNota**
-- **Modelo:** Por volume mensal
-- **Preço:** A partir de R$ 29,90/mês
-- **Taxa NFS-e:** R$ 15/CNPJ/mês (apenas quando usado)
-- **Plugin WHMCS:** R$ 69,90 (até 300 notas)
-- **Site:** https://transmitenota.com.br/
 
 #### 5. **NFe.io**
 - **Modelo:** Planos mensais
@@ -441,56 +451,73 @@ Para operações B2B com volume pequeno, os critérios mais importantes são:
 
 ### Recomendação para Pequeno Volume
 
-#### 🏆 **Recomendação Principal: Webmania (Plano START)**
+#### 🏆 **Opção 1: TransmiteNota** - Menor custo mensal
 
-**Por que Webmania?**
-1. **Custo previsível:** R$ 69,90/mês para 100 notas
-2. **100% preparado para Reforma Tributária 2025** - atualização garantida
+**Por que considerar:**
+1. **Menor mensalidade:** R$ 29,90/mês
+2. **Cobrança por volume** - paga proporcional ao uso
+3. **API REST documentada** - fácil integração
+4. **Suporte na implantação** incluído na taxa de onboarding
+
+**Custo 1º ano (estimado):**
+- Taxa onboarding: R$ 199,90 + 12x R$ 29,90 = **~R$ 559/ano**
+
+**Pontos a verificar no contato:**
+- [ ] Limite de notas no plano de R$ 29,90
+- [ ] Preparação para Reforma Tributária 2025
+- [ ] Taxa de onboarding é negociável?
+
+#### 🥈 **Opção 2: Webmania (Plano START)** - Mais seguro
+
+**Por que considerar:**
+1. **100% preparado para Reforma Tributária 2025** - garantia de atualização
+2. **Custo previsível:** R$ 69,90/mês para 100 notas
 3. **Cálculo automático de impostos** - menos trabalho manual
 4. **Suporte com contadores** - ajuda em dúvidas fiscais
 5. **30 dias grátis** - tempo para testar sem compromisso
-6. **REST API documentada** - fácil integração com Flask/Python
 
-**Custo estimado:**
-- ~20 notas/mês: R$ 69,90/mês = **R$ 3,50/nota**
-- ~50 notas/mês: R$ 69,90/mês = **R$ 1,40/nota**
-- ~100 notas/mês: R$ 69,90/mês = **R$ 0,70/nota**
+**Custo 1º ano:** 12x R$ 69,90 = **~R$ 839/ano**
 
-#### 🥈 **Alternativa: Focus NFe (Plano Solo)**
+#### Comparativo de Custo Anual
 
-Se preferir cobrança por nota (pay-per-use):
-1. Solicitar orçamento específico para baixo volume
-2. Sem mensalidade mínima
-3. Paga apenas pelo que usar
+| Provedor | 1º Ano | Anos Seguintes |
+|----------|--------|----------------|
+| TransmiteNota | ~R$ 559 | ~R$ 359 |
+| Sync NFe | ~R$ 564 | ~R$ 564 |
+| Webmania START | ~R$ 839 | ~R$ 839 |
+| Focus NFe Solo | ~R$ 1.079 | ~R$ 1.079 |
 
-**Próximo passo:** Solicitar orçamento em https://focusnfe.com.br/precos/
+> **Economia vs Omie:** R$ 2.000-5.000/ano dependendo do plano atual
 
 ---
 
 ## 10. Recomendação Final
 
-### Recomendação: **Webmania (Plano START) ou Focus NFe (Plano Solo)**
+### Recomendação: **TransmiteNota ou Webmania**
 
 **Para Consciência Café (pequeno volume B2B):**
 
-| Cenário | Provedor Recomendado | Custo Estimado |
-|---------|---------------------|----------------|
-| <20 notas/mês | Focus NFe (por nota) | ~R$ 30-50/mês |
-| 20-100 notas/mês | Webmania START | R$ 69,90/mês |
-| >100 notas/mês | Webmania PME 200 | R$ 99,90/mês |
+| Cenário | Provedor Recomendado | Custo Mensal | Custo 1º Ano |
+|---------|---------------------|--------------|--------------|
+| Menor custo possível | TransmiteNota | ~R$ 29,90 | ~R$ 559 |
+| Mais garantias | Webmania START | R$ 69,90 | ~R$ 839 |
+| Volume >100 notas | Webmania PME 200 | R$ 99,90 | ~R$ 1.199 |
 
 ### Justificativas:
-1. **Economia de R$ 130-430/mês** vs Omie
-2. **Preparado para Reforma Tributária 2025**
-3. **APIs modernas e bem documentadas**
-4. **Sem contrato mínimo** - flexibilidade total
-5. **Cálculo automático de impostos** - menos erros
+1. **Economia de R$ 2.000-5.000/ano** vs Omie
+2. **APIs modernas e bem documentadas**
+3. **Sem contrato mínimo** - flexibilidade total
+4. **Cálculo automático de impostos** - menos erros
 
 ### Próximos Passos:
-1. **Validar com contador** os dados fiscais (NCM, CFOP, CST do café)
-2. **Testar Webmania** (30 dias grátis) OU **Solicitar orçamento Focus NFe**
-3. **Adquirir certificado A1** se não possuir (~R$ 200/ano)
-4. **Iniciar desenvolvimento** após escolha do provedor
+1. **Entrar em contato com TransmiteNota** para esclarecer:
+   - Limite de notas no plano R$ 29,90
+   - Preparação para Reforma Tributária 2025
+   - Possibilidade de negociar taxa de onboarding
+2. **Testar Webmania** (30 dias grátis) como alternativa
+3. **Validar com contador** os dados fiscais (NCM, CFOP, CST do café)
+4. **Adquirir certificado A1** se não possuir (~R$ 200/ano)
+5. **Iniciar desenvolvimento** após escolha do provedor
 
 ---
 
@@ -499,9 +526,14 @@ Se preferir cobrança por nota (pay-per-use):
 - [Sistema Omie para Nota Fiscal](https://www.omie.com.br/funcionalidades/nota-fiscal/)
 - [Omie - Portal do Desenvolvedor](https://developer.omie.com.br/service-list/)
 - [Focus NFe - API NF-e](https://focusnfe.com.br/produtos/nota-fiscal-eletronica-nfe/)
+- [Focus NFe - Preços](https://focusnfe.com.br/precos/)
 - [NFe.io - Sistema de Emissão](https://nfe.io/)
 - [eNotas - Emissão Automática](https://enotas.com.br/)
+- [TransmiteNota - API NF-e](https://transmitenota.com.br/)
+- [TransmiteNota - Documentação](https://documentacao.transmitenota.com.br/)
+- [Webmania - Planos](https://webmania.com.br/planos/)
+- [Webmania - Documentação API](https://webmania.com.br/docs/rest-api-nfe/)
+- [Sync NFe](https://syncnfe.com.br/)
 - [SEFAZ-PR - Credenciamento NF-e](https://sped.fazenda.pr.gov.br/NFe/Pagina/Regras-de-Credenciamento)
 - [Sebrae - Certificado Digital NF-e](https://sebrae.com.br/sites/PortalSebrae/artigos/preciso-ter-certificado-digital-para-emitir-nf-e)
 - [Legislação NF-e 2025](https://www.omie.com.br/blog/legislacao-da-nota-fiscal-2025-entenda-o-que-mudou-e-o-que-fazer/)
-- [Webmania - Documentação API](https://webmania.com.br/docs/rest-api-nfe/)
